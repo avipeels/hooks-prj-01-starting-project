@@ -138,7 +138,7 @@ const ContactData = props => {
         });
     }
     let form = (
-        <form onSubmit={this.orderHandler}>
+        <form onSubmit={orderHandler}>
             {formElementsArray.map(formElement => (
                 <Input
                     key={formElement.id}
